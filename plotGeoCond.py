@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-import matplotlib.dates as dates
 import psycopg2
 # connection to the db
 conn = psycopg2.connect(dbname="SelfDrivingCar", user="postgres", password="postgres", host="10.130.50.7")
